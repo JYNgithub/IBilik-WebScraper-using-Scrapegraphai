@@ -1,4 +1,4 @@
-﻿# 🕷️ IBilik Web Scraper Using Scrapegraph-ai
+﻿# 🕷️ iBilik.my Web Scraper Using Scrapegraph-ai
  Scrapegraph-ai.my is a LLM-based web scraping Python library, meaning that web scrapping is now made easier by providing prompts for what to be scraped, without requiring advanced web programming knowledge.\
  This project aims to develop a web scrapping program to extract data on available rooms for rent in Cyberjaya, Selangor from https://www.ibilik.my/. \
  All data scraped are legal, open to public and for personal educational purposes. 
@@ -58,6 +58,12 @@ url_prompt = ['Identify the rental price.',
 Note that if you change the prompts, you should remove the code at line 92 to prevent any errors, which is only for data cleaning purposes.
 ```python
 df.columns = ['Rental Price','Room Type', 'Accommodation Facilities','Link']
+```
+
+# Run the Program
+Run the 'main.py' in your IDE. Or run the code below in the terminal.  
+```bash
+python main.py
 ```
 
 # Example of Scraped Data
