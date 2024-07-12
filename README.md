@@ -1,6 +1,6 @@
 ﻿# 🕷️ IBilik Web Scraper Using Scrapegraph-ai
- Scrapegraph-ai is a LLM-based web scraping Python library, meaning that web scrapping is now made easier by providing prompts for what to be scraped, without requiring advanced web programming knowledge.
- This project aims to develop a web scrapping program to extract data on available rooms for rent in Cyberjaya, Selangor from https://www.ibilik.my/.
+ Scrapegraph-ai is a LLM-based web scraping Python library, meaning that web scrapping is now made easier by providing prompts for what to be scraped, without requiring advanced web programming knowledge.\
+ This project aims to develop a web scrapping program to extract data on available rooms for rent in Cyberjaya, Selangor from https://www.ibilik.my/.\
  All data scraped are legal, open to public and for personal educational purposes. 
 
 <p align="center">
@@ -17,7 +17,7 @@ It is highly recommended to install these libraries in a virtual environment to 
 pip install -r requirements.txt
 ```
 Note that this program currently only works for version 1.8.0 of Scrapegraphai.\
-If the program does not work, you may verify the version by using:\
+If the program does not work, you may verify the version by using:
 ```bash
 pip show <package_name>
 ```
@@ -41,8 +41,9 @@ This will determine the number of rooms for each page you wish to scrap.
 number_of_rooms = 20
 ```
 ## URL
-By default, the URL will direct to the pages of rooms in Cyberjaya, Selangor. 
-If you wish to change the link, simply add "&page=" to the end of the link. The link copied should be directly after searching for results in the home page. For example, "https://www.ibilik.my/rooms/kuantan?location_search=303&location_search_name=Kuantan%2C%20Pahang".
+By default, the URL will direct to the pages of rooms in Cyberjaya, Selangor.\ 
+If you wish to change the link, simply add "&page=" to the end of the link. The link copied should be directly after searching for results in the home page.\ 
+For example, "https://www.ibilik.my/rooms/kuantan?location_search=303&location_search_name=Kuantan%2C%20Pahang".
 ```python
 main_url = f'https://www.ibilik.my/rooms/cyberjaya?location_search=54&location_search_name=Cyberjaya%2C+Selangor&page='
 ```
@@ -63,7 +64,7 @@ df.columns = ['Rental Price','Room Type', 'Accommodation Facilities','Link']
 The 'example_scraped_data.csv' is a sample of the results from this web scraper. It contains data of 100 rooms for rent in Cyberjaya, Selangor as of 12 July 2024.
 
 # Disclaimer
- All data scraped are legal and open to public. No user info has been extracted or utilized. The data is only used for personal and educational purposes.
+All data scraped are legal and open to public. No user info has been extracted or utilized. The data is only used for personal and educational purposes.
 
 
  
