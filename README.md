@@ -41,8 +41,8 @@ This will determine the number of rooms for each page you wish to scrap.
 number_of_rooms = 20
 ```
 ## URL
-By default, the URL will direct to the pages of rooms in Cyberjaya, Selangor. \ 
-If you wish to change the link, simply add "&page=" to the end of the link. The link copied should be directly after searching for results in the home page. \ 
+By default, the URL will direct to the pages of rooms in Cyberjaya, Selangor.     
+If you wish to change the link, simply add "&page=" to the end of the link. The link copied should be directly after searching for results in the home page.    
 For example, "https://www.ibilik.my/rooms/kuantan?location_search=303&location_search_name=Kuantan%2C%20Pahang".
 ```python
 main_url = f'https://www.ibilik.my/rooms/cyberjaya?location_search=54&location_search_name=Cyberjaya%2C+Selangor&page='
