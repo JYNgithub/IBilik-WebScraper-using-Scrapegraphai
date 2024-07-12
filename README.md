@@ -16,8 +16,8 @@ It is highly recommended to install these libraries in a virtual environment to 
 ```bash
 pip install -r requirements.txt
 ```
-Note that this program currently only works for version 1.8.0 of Scrapegraphai.
-If the program does not work, you may verify the version by using:
+Note that this program currently only works for version 1.8.0 of Scrapegraphai.\
+If the program does not work, you may verify the version by using:\
 ```bash
 pip show <package_name>
 ```
