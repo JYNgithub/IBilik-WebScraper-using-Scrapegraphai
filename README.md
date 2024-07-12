@@ -20,6 +20,10 @@ If the program does not work, you may verify the version by using:
 ```bash
 pip show scrapegraphai
 ```
+You may also need to install Playwright (you will be prompted if required).    
+```bash
+playwright install
+```
 
 # Setup
 ## API Key 
