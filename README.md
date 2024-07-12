@@ -4,11 +4,11 @@
  All data scraped are legal, open to public and for personal educational purposes. 
 
 <p align="center">
-  <img src="https://github.com/JYNgithub/IBilik-WebScraper-using-Scrapegraphai/blob/main/assets/Process.jpg" style="width: 50%;">
+  <img src="https://github.com/JYNgithub/IBilik-WebScraper-using-Scrapegraphai/blob/main/assets/Process.jpg" style="width: 90%;">
 </p>
 
 <p align="center">
-  <img src="https://github.com/JYNgithub/IBilik-WebScraper-using-Scrapegraphai/blob/main/assets/Flowchart.jpg" style="width: 50%;">
+  <img src="https://github.com/JYNgithub/IBilik-WebScraper-using-Scrapegraphai/blob/main/assets/Flowchart.jpg" style="width: 90%;">
 </p>
 
 # Installation
