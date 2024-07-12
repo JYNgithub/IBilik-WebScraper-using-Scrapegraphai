@@ -81,11 +81,16 @@ python main.py
 # Example of Scraped Data
 The 'example_scraped_data.csv' is a sample of the results from this web scraper. It contains data of 100 rooms for rent in Cyberjaya, Selangor as of 12 July 2024.
 
-# Disclaimer
-All data scraped are legal and open to public. No user info has been extracted or utilized. The data is only used for personal and educational purposes.
+# Limitations
+The program is built for low cost LLM models with limited context windows such as GPT 3.5 Turbo. Therefore, the capabilities of Scrapegraph-ai are not fully utilized, such as the SmartScraperMultiGraph module to scrape a list of URLs easily.
 
 # Credits
 Scrapegraphai GitHub: https://github.com/ScrapeGraphAI/Scrapegraph-ai/tree/main
+
+# Disclaimer
+All data scraped are legal and open to public. No user info has been extracted or utilized. The data is only used for personal and educational purposes.
+
+
 
 
 
