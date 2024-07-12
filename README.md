@@ -1,6 +1,6 @@
 ﻿# 🕷️ IBilik Web Scraper Using Scrapegraph-ai
  Scrapegraph-ai is a LLM-based web scraping Python library, meaning that web scrapping is now made easier by providing prompts for what to be scraped, without requiring advanced web programming knowledge.\
- This project aims to develop a web scrapping program to extract data on available rooms for rent in Cyberjaya, Selangor from https://www.ibilik.my/.\
+ This project aims to develop a web scrapping program to extract data on available rooms for rent in Cyberjaya, Selangor from https://www.ibilik.my/. \
  All data scraped are legal, open to public and for personal educational purposes. 
 
 <p align="center">
